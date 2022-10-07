@@ -39,13 +39,13 @@ export default {
       all_users:null,
       isLoading: false,
       items:[
-      {
-        id: 1,
-        customer: "nandini",
-        order: "$1.99",
-        status: "paid",
-        action:"something",          
-      }
+      // {
+      //   id: 1,
+      //   customer: "nandini",
+      //   order: "$1.99",
+      //   status: "paid",
+      //   action:"something",          
+      // }
     ]
     };      
   },
