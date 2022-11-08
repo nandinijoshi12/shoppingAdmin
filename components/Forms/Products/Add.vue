@@ -102,8 +102,8 @@
                 >Quantity</label
               >
               <input
-                name="quantity"
-                v-model="quantity"
+                name="stock"
+                v-model="stock"
                 type="number"
                 class="
                   w-full
@@ -156,7 +156,7 @@ export default {
       category: null,
       description: null,
       price: null,
-      quantity: null,
+      stock: null,
       prod_ghe: null,
     };
   },
@@ -167,7 +167,7 @@ export default {
         category: this.category,
         description: this.description,
         price: this.price,
-        quantity: this.quantity,
+        stock: this.stock,
       }; 
       this.$store.dispatch('products/add', formMadhlaData) 
       .then(()=>(

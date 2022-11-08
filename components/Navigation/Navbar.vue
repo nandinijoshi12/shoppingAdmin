@@ -17,7 +17,7 @@
                  </div>
              </div>
              <div class="flex flex-row justify-between items-center">
-                  <p class="hidden lg:inline-block mr-4 text-sm">Hello, {{ aatlaData.data.name === undefined ? "Human" : aatlaData.data.name }}</p>
+                  <!-- <p class="hidden lg:inline-block mr-4 text-sm">Hello, {{ aatlaData.data.name === undefined ? "Human" : aatlaData.data.name }}</p> -->
                   <div>
                    <AccountSettings/>
                   </div>
